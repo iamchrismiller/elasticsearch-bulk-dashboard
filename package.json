@@ -1,0 +1,25 @@
+{
+  "name": "elasticsearch-bulk-dashboard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint -c .eslintrc 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+      "node": ">=6.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "0.1.81",
+    "blessed-contrib": "4.6.5",
+    "colors": "^1.1.2",
+    "commander": "2.9.0",
+    "eslint": "^3.13.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-node": "^3.0.5"
+  }
+}

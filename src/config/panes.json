@@ -1,0 +1,117 @@
+{
+  "info": {
+    "label": "Dashboard Params",
+    "layout": {
+      "row": 0,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 4
+    }
+  },
+  "cats": {
+    "heap": {
+      "label": "Nodes",
+      "cat": {
+        "type": "nodes",
+        "header": "ip,cpu,heap.current,heap.percent,heap.max"
+      },
+      "columnWidth": [15, 12, 12, 12, 8],
+      "layout": {
+        "row": 6,
+        "col": 5,
+        "row_span": 4,
+        "col_span": 7
+      }
+    },
+    "health": {
+      "label": "Cluster Health",
+      "cat": {
+        "type": "health",
+        "header": "cluster,status"
+      },
+      "columnWidth": [12, 6],
+      "layout": {
+        "row": 4,
+        "col": 10,
+        "row_span": 2,
+        "col_span": 2
+      }
+    },
+    "thread_pool": {
+      "label": "Thread Pool",
+      "cat": {
+        "type": "thread_pool/bulk,flush,refresh,index,force_merge",
+        "header": "node_name,name,active,queue,rejected"
+      },
+      "columnWidth": [8,11,6,5,6],
+      "layout": {
+        "row": 6,
+        "col": 0,
+        "row_span": 4,
+        "col_span": 5
+      }
+    }
+  },
+  "stats" : {
+    "indexing_complete": {
+      "label": "Indexing Completion",
+      "stat": {
+        "type": "indexing"
+      },
+      "layout": {
+        "row": 4,
+        "col": 8,
+        "row_span": 2,
+        "col_span": 2
+      }
+    },
+    "indexing_rate": {
+      "label": "Indexing Rate",
+      "stat": {
+        "type": "indexing"
+      },
+      "layout": {
+        "row": 2,
+        "col": 8,
+        "row_span": 2,
+        "col_span": 4
+      }
+    },
+    "indexing_current" : {
+      "label": "Current Index Count",
+      "stat": {
+        "type": "indexing"
+      },
+      "layout": {
+        "row": 0,
+        "col": 8,
+        "row_span": 2,
+        "col_span": 4
+      }
+    },
+    "translog": {
+      "label": "Translog Size",
+      "stat": {
+        "type": "translog"
+      },
+      "layout": {
+        "row": 0,
+        "col": 4,
+        "row_span": 2,
+        "col_span": 4
+      }
+    },
+    "indexing_graph": {
+      "label": "Indexing Rate",
+      "stat": {
+        "type": "indexing"
+      },
+      "layout": {
+        "row": 2,
+        "col": 0,
+        "row_span": 4,
+        "col_span": 8
+      }
+    }
+  }
+}
