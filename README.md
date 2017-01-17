@@ -26,4 +26,4 @@ Options:
 ```
 
 
-![Screenshot](https://raw.githubusercontent.com/iamchrismiller/elastic-bulk-dashboard/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/iamchrismiller/elasticsearch-bulk-dashboard/master/screenshot.png)
