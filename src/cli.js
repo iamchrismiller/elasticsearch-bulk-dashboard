@@ -2,7 +2,7 @@
 'use strict';
 
 const program = require('commander');
-const pkg = require('./package.json');
+const pkg = require('./../package.json');
 
 program
   .version(pkg.version)
@@ -19,7 +19,7 @@ if (!program.index) {
 }
 
 // Initialize Dashboard
-require('./src/index').init(
+require('./index').init(
   program.host,
   program.port,
   program.index,

@@ -3,5 +3,9 @@
     "extends": ["eslint:recommended", "plugin:node/recommended"],
     "rules": {
         "node/exports-style": ["error", "module.exports"],
+        "no-unused-vars": [1],
+        "node/no-unpublished-require": [1],
+        "no-process-exit": [0],
+        "no-case-declarations": [1]
     }
 }

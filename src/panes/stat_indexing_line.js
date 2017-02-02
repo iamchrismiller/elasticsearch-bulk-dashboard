@@ -58,27 +58,27 @@ module.exports.register = (opts, conf, emitter, grid) => {
     data.success.x.push(timestamp);
     data.success.y.push(response.value);
 
-
-
     data.failed.x.push(timestamp);
     data.failed.y.push(response.failed);
 
     pane.setData([
       {
         title: 'Sucessful',
-    		style: {line: 'green'},
+        style: {
+            line: 'green'
+        },
         x: data.success.x,
         y: data.success.y
-    	},
+      },
       {
         title: 'Failed',
-    		style: {line: 'red'},
+        style: {
+            line: 'red'
+        },
         x: data.failed.x,
         y: data.failed.y
-    	}
+      }
     ]);
-
-
 
     pane.parent.render();
   });

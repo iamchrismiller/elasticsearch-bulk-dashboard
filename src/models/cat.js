@@ -4,7 +4,6 @@
  * Cat Model
  */
 module.exports = class Cat {
-
   /**
    * Cat Contructor
    * @param string type
@@ -14,7 +13,7 @@ module.exports = class Cat {
   }
 
   getValuesForType(data) {
-    switch(this.type){
+    switch(this.type) {
       case 'thread_pool/bulk,flush,refresh,index,force_merge':
       case 'health':
       case 'nodes':

@@ -64,7 +64,7 @@ class ElasticBulkDashboard {
     // This could be cleaner
     if (panes) {
       const s_conf = this.service_config;
-      
+
       info_pane.register(panes.info, s_conf, this.emitter, this.grid);
       cat_table_pane.register(panes.cats.heap, s_conf, this.emitter, this.grid);
       cat_table_pane.register(panes.cats.health, s_conf, this.emitter, this.grid);
@@ -82,7 +82,9 @@ class ElasticBulkDashboard {
    */
   bind_events() {
     // Quit on Escape, q, or Control-C.
-    this.screen.key(['escape', 'q', 'C-c'], () => { process.exit(0); });
+    this.screen.key(['escape', 'q', 'C-c'], () => {
+      process.exit(0);
+     });
   }
 
   tick_stats() {
