@@ -1,4 +1,4 @@
-### Elasticsearch Bulk Ingest Dashboard
+### Elasticsearch Bulk Ingest Dashboard [![npm version](https://badge.fury.io/js/elasticsearch-bulk-dashboard.svg)](https://badge.fury.io/js/elasticsearch-bulk-dashboard)
 
 `Elasticsearch >= 5.x` bulk ingest dashboard
 
