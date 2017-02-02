@@ -8,6 +8,7 @@
   "main": "src",
   "files": ["src"],
   "bin": {
+    "elasticsearch-bulk-dashboard": "src/cli.js",
     "elastic-bulk-dashboard": "src/cli.js"
   },
   "scripts": {

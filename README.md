@@ -6,13 +6,14 @@ Visualizes parts of the [_cat](https://www.elastic.co/guide/en/elasticsearch/ref
 
 ## Install
 
-`yarn/npm install`
+`yarn global add elasticsearch-bulk-dashboard`
 
+`npm install -g elasticsearch-bulk-dashboard`
 
 ## Usage
 
 ```
-Usage: index [options]
+Usage: elasticsearch-bulk-dashboard [options]
 
 Options:
 
