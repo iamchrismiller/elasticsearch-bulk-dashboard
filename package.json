@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-bulk-dashboard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Elasticsearch Bulk Ingestion Dashboard Using the _cat and _stats API",
   "repository": "iamchrismiller/elastic-bulk-dashboard",
   "author": "Chris Miller <chrismillersd@gmail.com>",
