@@ -26,5 +26,4 @@ Options:
   -I, --interval <interval>  Query Interval
 ```
 
-
 ![Screenshot](https://raw.githubusercontent.com/iamchrismiller/elasticsearch-bulk-dashboard/master/screenshot.png)
